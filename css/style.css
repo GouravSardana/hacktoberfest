@@ -49,6 +49,10 @@ img {
     color: #ff9a56;
 }
 
+.contributors a:not(:last-of-type)::after {
+    content: " |";
+    color: #ff9a57;
+}
 @media (max-width: 600px){
     .contributors{
         display: flex;
